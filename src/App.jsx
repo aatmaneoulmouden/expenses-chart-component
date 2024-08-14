@@ -1,7 +1,7 @@
-import React from "react";
+import ExpensesChart from "./components/ExpensesChart";
 
 const App = () => {
-  return <div>Expenses chart component</div>;
+  return <ExpensesChart />;
 };
 
 export default App;
