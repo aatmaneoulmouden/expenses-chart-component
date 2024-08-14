@@ -9,17 +9,3 @@
     @apply font-base bg-neutral-cream;
   }
 }
-
-@layer components {
-  .chart article {
-    @apply flex-1 flex flex-col items-center gap-1;
-  }
-
-  .chart .bar {
-    @apply w-full bg-primary-softRed rounded-md;
-  }
-
-  .chart .label {
-    @apply text-sm text-neutral-mediumBrown;
-  }
-}
