@@ -5,6 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx,css}",
   ],
   theme: {
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: '20px',
+      }
+    },
     screens: {
       "mobile": "375px",
       "desktop": "1440px",

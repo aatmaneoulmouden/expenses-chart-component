@@ -3,7 +3,7 @@ import WeekSpending from "./WeekSpending";
 
 const ExpensesChart = () => {
   return (
-    <section className="w-96 flex flex-col gap-y-5">
+    <section className="w-full mobile:w-96 flex flex-col gap-y-5">
       <Balance />
       <WeekSpending />
     </section>
