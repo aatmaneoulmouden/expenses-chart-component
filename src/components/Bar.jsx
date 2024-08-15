@@ -6,7 +6,7 @@ const Bar = ({ isMax, day, amount }) => {
     <article className="flex-1 flex flex-col items-center gap-1 group cursor-pointer">
       <div
         className={`bar w-full rounded-md relative ${
-          isMax ? "bg-primary-cyan" : "bg-primary-softRed"
+          isMax ? "bg-primary-cyan group-hover:bg-primary-cyan/80" : "bg-primary-softRed group-hover:bg-primary-softRed/80"
         }`}
         style={barStyles}
       >
