@@ -30,7 +30,7 @@ export default {
           cream: "hsl(27, 66%, 92%)",
           veryPaleOrange: "hsl(33, 100%, 98%)",
         },
-      }
+      },
     },
   },
   plugins: [],
